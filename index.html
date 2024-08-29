@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="bogo-offer">
+        <h1>YAY! It's BOGO</h1>
+
+        <form>
+            <div class="offer-option">
+               
+                <label for="offer1">
+                    
+                    <span class="offer-discount">30% Off</span>
+                    <input type="radio" id="offer1" name="bogo" value="18" checked>
+                   
+                    <span class="offer-description">Buy 1 Get 2</span>
+                    <span class="offer-price">$18.00 USD</span>
+                </label>
+            </div>
+
+            <div class="offer-option">
+               
+                <label for="offer2">
+                    <span class="offer-discount">30% Off</span>
+                    <input type="radio" id="offer2" name="bogo" value="24">
+
+                    <span class="offer-description">Buy 2 Get 4</span>
+                    <span class="offer-price">$24.00 USD</span>
+                    <span class="most-popular">Most Popular</span>
+                </label>
+            </div>
+
+            <div class="offer-option">
+              
+                <label for="offer3">
+                    <input type="radio" id="offer3" name="bogo" value="36">
+                    <span class="offer-description">Buy 3 Get 6</span>
+                    <span class="offer-price">
+                        $36.00 USD <span class="strike-price">$10.00 USD</span> 
+                </label>
+
+                <div class="product-selection">
+                    <div class="product">
+                        <label for="size1">Size</label>
+                        <select id="size1">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                        <label for="size2">Size</label>
+                        <select id="size2">
+                            <option value="S">S</option>
+                            <option value="M">M</option>
+                            <option value="L">L</option>
+                        </select>
+                    </div>
+                    <div class="product">
+                        <label for="color1">Color</label>
+                        <select id="color1">
+                            <option value="Black">Black</option>
+                            <option value="Red">Red</option>
+                            <option value="Blue">Blue</option>
+                        </select>
+                        
+                        <label for="color2">Color</label>
+                        <select id="color2">
+                            <option value="Black">Black</option>
+                            <option value="Red">Red</option>
+                            <option value="Blue">Blue</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="total-price">
+                <p id="freeDel">Free Delivery</span></p>
+                <p>Total: <span id="total">$18.00 USD</span></p>
+            </div>
+
+            <button type="button" class="add-to-cart">+ Add to Cart</button>
+            <p class="Powered">Powered by <span class="Pumper">Pumper</span></p>
+        </form>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
